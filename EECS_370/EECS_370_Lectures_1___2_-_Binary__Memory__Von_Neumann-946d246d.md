@@ -49,7 +49,9 @@ Program Counter: has the location of the next instruction in memory. Gets increm
 Von Neumann Archetecture
 1) Fetch: next instruction using the PC to find where it is to place in instruction archetecture
 2) Decode: the instruction in to some thing it can understand
-3) exclude
+3) execute
+
+Additionally, the memory for the program and the instructions are the same, vs something like the Harvard archetecture which keeps them seperate
 
 CPU
 
